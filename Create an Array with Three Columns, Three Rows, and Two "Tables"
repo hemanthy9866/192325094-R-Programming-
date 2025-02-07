@@ -1,0 +1,4 @@
+vector1 <- 1:6
+vector2 <- 7:12
+my_array <- array(c(vector1, vector2), dim = c(3, 3, 2))
+print(my_array)
