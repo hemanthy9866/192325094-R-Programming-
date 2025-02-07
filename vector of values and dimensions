@@ -1,0 +1,5 @@
+values <- 1:12
+dims <- c(3, 4)
+my_array <- array(values, dim = dims)
+dimnames(my_array) <- list(Row = c("R1", "R2", "R3"), Column = c("C1", "C2", "C3", "C4"))
+print(my_array)
