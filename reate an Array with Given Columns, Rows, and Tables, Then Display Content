@@ -1,0 +1,4 @@
+values <- 1:24
+dims <- c(3, 4, 2)
+my_array <- array(values, dim = dims)
+print(my_array)
