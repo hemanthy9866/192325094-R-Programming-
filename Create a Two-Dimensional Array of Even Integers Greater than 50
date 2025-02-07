@@ -1,0 +1,3 @@
+even_integers <- seq(52, 62, by = 2)
+my_array <- array(even_integers, dim = c(5, 3))
+print(my_array)
